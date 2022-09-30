@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors & other designings</title>
+    <style>
+
+.container{
+    border: 2px solid red;
+    background-color: greenyellow;
+    padding: 34px;
+    margin: 34px auto;
+    width: 666px;
+}
+
+.btn{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: crimson;
+padding: 6px;
+border: none;
+cursor: pointer; /* this is used to change the pointer */
+font-size: 16px;
+border-radius: 16px;
+font-weight: bold;
+font-style: italic;
+}
+
+a{
+  text-decoration:none ;
+  color: black;  /* this is used for text decoration*/
+}
+
+a:hover{ /* this is used when you move the cursor on the link */
+    color: white;
+    background-color: black;
+}
+
+a:visited{ /*this tag is used to highlight the visted tag */
+    color: pink ;
+}
+
+a:active{/* this tag is used to highlight the visited tag on click to show your link is active now*/
+    background-color: aquamarine;
+}
+    </style>
+</head>
+
+<body>
+
+    <div class="container" id="id">
+
+        <h3>This is my heading </h3>
+        
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus laudantium porro eligendi fugiat libero corrupti ut esse ad tempora placeat culpa, cumque enim iste exercitationem illum et distinctio! Tempora accusamus accusantium nobis officia animi?</p>
+       
+        <a href="http:\\google.com"class="btn">Read more</a>
+       
+        <button class="btn">Contact us</button> <!--this is used to create button -->
+    </div>
+</body>
+</html>

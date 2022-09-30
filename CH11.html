@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        .redElement{ /* "." is used for class */  /* this is class selector*/ 
+            color: red; 
+        }
+
+        .bgBlue{  /* this is a class selector*/
+            background-color: yellow;
+        }
+
+        #secondparah{ /* "#" is used for id */   /* this is ID selector*/
+            color: blue;
+        }
+
+        p{ /* this is element selector */
+            color: purple;
+            border: 2px solid black;
+        }
+          footer,span{    /* this is  grouping element selector */
+            background-color: peru;
+            border: 2px solid black;
+        }
+         li{
+            border: 1px solid blueviolet;
+            display: inline;
+         }
+
+    </style>
+
+</head>
+<body>
+    <h2> CSS Selectors</h2>
+    <ol>
+        <h3>FOUR TYPES OF SELECTORS ARE</h3>
+        <li>CSS element selector</li>
+        <li>CSS ID selector</li>
+        <li>CSS class selector</li>
+        <li>CSS grouping selector </li>
+    </ol>
+  
+    <p class="redElement bgBlue">This is a simple paragraph tag </p> <!-- this is class selector this is used for multiple line css-->
+    
+    <p id="secondparah">This is another simple paragraph tag </p> <!-- this is id selector this is used for sigle line css -->
+    
+    <div>
+        <p>This is another one simple paragraph tag </p> <!-- this is element selector -->
+       
+        <span>this is span</span>
+    </div>
+    
+    <footer>This is footer </footer>
+</body>
+</html>

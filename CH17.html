@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        
+        h1{
+            margin: 12px auto;
+            width: 300px;
+            font-style: italic;
+        }
+       
+         body{
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .container{
+            background-color: rgb(78, 197, 136);
+            font-weight: bold;
+            width: 1000px;
+            border: 3px solid purple;
+            margin:  auto; /* it helps to set the box in center  // It helps to provide the same px in margins*/
+
+        }
+
+        .item{
+            border: 3px solid ;
+            background-color: rgb(103, 95, 192);
+            /* margin: 12px 3px; */
+            margin: 1rem 3px;
+            padding: 12px 3px;    
+        }
+        #fruit{
+            float: left;
+            width: 48%;
+
+        }
+        #computer{
+            float: right;
+            width: 48%;
+        }
+        #vegetables{
+            /* float: left; */
+            clear: left; /* it helps to clear the Overlap when you are not choosing any float */
+            width: 100%;
+
+        }
+p,h3{
+    /* text-align: center;  It arranges the alignment of text 
+    text-align: left;
+    text-align: right; */
+
+    text-align: justify;
+}
+    
+    </style>
+</head>
+<body>
+   
+    <div class="container">
+        <h1>Welcome to my Store</h1>
+    
+   
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitparah" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi aspernatur exercitationem, quaerat consectetur veniam modi esse expedita velit temporibus nemo, repudiandae repellat ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus autem consequuntur eveniet rerum, laborum deleniti odit porro vero temporibus voluptatum quos eum earum nam sint! Rem unde quia numquam asperiores. Sed eveniet voluptas Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis velit unde vitae.</p>
+        </div>
+
+        <div id="computer" class="item">
+            <h3>Computer Items</h3>
+            <p id="computerparah" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi aspernatur exercitationem, quaerat consectetur veniam modi esse expedita velit temporibus nemo, repudiandae repellat ipsum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic optio minus est earum illum, magnam non eaque possimus sit, doloremque accusamus nesciunt aliquid cupiditate nemo natus? Sit deleniti similique, a quas cumque consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, modi magni. Ex optio</p>
+        </div>
+        
+        <div id="vegetables" class="item">
+            <h3>Vegetables</h3>
+            <p id="vegetablesparah" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi aspernatur exercitationem, quaerat consectetur veniam modi esse expedita velit temporibus nemo, repudiandae repellat ipsum? </p>
+        </div>
+   
+    </div>
+
+</body>
+</html>

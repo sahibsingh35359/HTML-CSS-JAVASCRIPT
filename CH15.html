@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> height, width , borders and backgrounds </title>
+    <style>
+    #firstparah{
+        background-color: purple;
+       
+        height:4rem ;/* this is height of the background colour*/
+        width: 22rem;/* this is width of the background colour*/
+       
+        border-color: greenyellow;    /*this for border  with multiple declaration*/  
+        border-style: solid; 
+        border-width: 3px;
+        border-radius: 9px; /* this is for full border radius */
+    }
+
+    #secondparah{
+        background-color: blueviolet;
+        height: 4rem;
+        width: 22rem;
+        border: 2px solid green; /* this is in one line declaration*/
+      
+      
+        border-top: 4px solid yellow ; /* this is for only top border*/
+        border-right: 4px solid purple;
+        border-left: 4px solid cyan;
+        border-bottom: 4px solid blue;
+       
+        border-bottom-left-radius: 9px; /* this border is for different sides*/ 
+        border-top-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-right-radius: 9px;
+}
+#thirdparah{
+height: 400px;
+width: 400px;
+background-image: url('sahib.JPG');
+border: 4px solid yellow;
+background-repeat: no-repeat; /*repeat-x and repeat-y will make it repeat on x and y axis*/
+background-position:center center;
+}
+</style>
+</head>
+<body>
+    <h2>Height, Width , Borders And Backgrounds</h2>
+    <p id="firstparah">This is a paragraph tag</p>
+    <p id="secondparah">This is my second paragraph tag </p>
+    <p id="thirdparah"> this is the third paragraph tag</p>
+</body>
+</html>
